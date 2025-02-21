@@ -1,0 +1,9 @@
+{
+  "name": "AI Assistant Llama 3.1 Plugin",
+  "version": "1.1.0",
+  "description": "An AI-powered assistant for Lens Studio with modern UI",
+  "main": "main.js",
+  "scripts": ["AIModel.js", "WebScraper.js", "UI.js", "Cache.js"],
+  "permissions": ["internet", "persistent_storage"],
+  "resources": ["llama_3.1_model.bin", "bubbleMaterial"]
+}

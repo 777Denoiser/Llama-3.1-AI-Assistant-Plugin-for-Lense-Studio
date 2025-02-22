@@ -2,7 +2,7 @@ import LlamaService from './LlamaService';
 import InfoRetriever from './InfoRetriever';
 import UI from './UI';
 import Cache from './Cache';
-import Config from './Config';
+import Config from './AIConfig';
 
 class AIAssistantPlugin {
     constructor() {

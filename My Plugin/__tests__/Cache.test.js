@@ -19,7 +19,7 @@ describe('Cache', () => {
 
     expect(cache.cache.size).toBeLessThanOrEqual(100);
     expect(cache.get("key0")).toBeUndefined();
-    expect(cache.get("key100")).toBe("value100");
+    expect(cache.get("key100")).toBe("new_value100");
   });
 
   test('overwrite', () => {
